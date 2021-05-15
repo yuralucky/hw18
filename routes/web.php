@@ -16,4 +16,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/geo', [GeoIpController::class,'index']);
-Route::get('/', [UserAgentController::class,'index']);
+Route::get('/user-agent', [UserAgentController::class,'index']);

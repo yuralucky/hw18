@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Service\UserAgent\UserAgent;
 use Illuminate\Http\Request;
+use Yuriy\UserAgent\UserAgent;
 
 class UserAgentController extends Controller
 {
